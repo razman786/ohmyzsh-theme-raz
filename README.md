@@ -3,7 +3,7 @@
 [![ZSH][zsh-image]][zsh-url]
 [![Oh-My-Zsh][omz-image]][omz-url]
 
-My custom ZSH prompt made into a [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) theme.
+My custom ZSH prompt made into an [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) theme.
 
 Currently it shows:
 
