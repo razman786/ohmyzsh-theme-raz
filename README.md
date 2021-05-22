@@ -16,6 +16,7 @@ Currently it shows:
 
 ## Screenshot
 
+<img width="961" alt="Screenshot" src="https://user-images.githubusercontent.com/7116312/119237101-0e258c00-bb33-11eb-966c-bea614bb2d7a.png">
 
 ## Requirements
 
