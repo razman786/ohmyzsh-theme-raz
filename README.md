@@ -13,6 +13,7 @@ Currently it shows:
 * Time
 * Git repo branch
 * Git repo status icon
+* Exit code
 * Current path
 * Numbber of files in current directory
 * Size of files in current directory

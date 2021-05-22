@@ -3,7 +3,7 @@
 # My custom prompt made into an Oh My ZSH theme
 # To install place this theme file into $ZSH_CUSTOM/themes and set ZSH_THEME="raz+"
 # Format is for top line:
-# username@hostname-[date time](git branch) git_status_icon
+# username@hostname-[date time](git branch) git_status_icon [exit code]
 # Left side second line:
 # ::
 # Right side second line:
