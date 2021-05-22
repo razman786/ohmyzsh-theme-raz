@@ -1,6 +1,6 @@
 # Raz's ZSH Theme
 
-My custom ZSH prompt made into a [@OhMy ZSH!"][oh-my-zsh] theme.
+My custom ZSH prompt made into a [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) theme.
 
 Currently it shows:
 
@@ -23,7 +23,7 @@ Currently it shows:
 For the theme to work correctly you will need:
 
 * [`zsh`](http://www.zsh.org/) (tested with v5.8)
-* [oh-my-zsh] a zsh-framework
+* [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) a zsh-framework
 
 ## Installing
 
