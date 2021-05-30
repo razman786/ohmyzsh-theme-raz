@@ -15,7 +15,7 @@ Currently it shows:
 * Git repo status icon
 * Exit code
 * Current path
-* Numbber of files in current directory
+* Number of files in current directory
 * Size of files in current directory
 
 ## Screenshot
