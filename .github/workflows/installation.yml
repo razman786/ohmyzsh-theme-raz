@@ -18,7 +18,7 @@ jobs:
     - name: Install Oh My ZSH
       run: |
         sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-        zsh
+        exec zsh
     - name: Install ZSH theme
       run: |
         cp raz+.zsh-theme ${HOME}/.oh-my-zsh/custom/themes
@@ -30,4 +30,4 @@ jobs:
         cat ${HOME}/.zshrc
     - name: Activate new theme
       run: |
-        source ${HOME}/.zshrc
+        exec zsh
