@@ -25,6 +25,9 @@ jobs:
     - name: Configure zshrc
       run: |
         sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="raz+"/' ${HOME}/.zshrc  
+    - name: Check zshrc config
+      run: |
+        cat ${HOME}/.zshrc
     - name: Activate new theme
       run: |
         source ${HOME}/.zshrc
