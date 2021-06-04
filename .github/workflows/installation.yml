@@ -1,0 +1,33 @@
+name: Raz's ZSH Theme CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-2004:
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up runner VM
+      run: |
+        sudo apt update
+        sudo apt install zsh
+    - name: Install Oh My ZSH
+      run: |
+        sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+        exec zsh
+    - name: Install ZSH theme
+      run: |
+        cp raz+.zsh-theme ${HOME}/.oh-my-zsh/custom/themes
+    - name: Configure zshrc
+      run: |
+        sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="raz+"/' ${HOME}/.zshrc  
+    - name: Check zshrc config
+      run: |
+        cat ${HOME}/.zshrc
+    - name: Activate new theme
+      run: |
+        exec zsh
