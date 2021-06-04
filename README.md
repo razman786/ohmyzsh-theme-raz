@@ -1,5 +1,6 @@
 # Raz's ZSH Theme
 
+![Raz's ZSH Theme CI][rzt-image]
 [![ZSH][zsh-image]][zsh-url]
 [![Oh-My-Zsh][omz-image]][omz-url]
 
@@ -58,6 +59,8 @@ source ~/.zshrc
 MIT © Raz
 
 <!-- Badges -->
+
+[rzt-image]: https://github.com/razman786/ohmyzsh-theme-raz/actions/workflows/installation.yml/badge.svg
 
 [zsh-url]: http://zsh.org/
 [zsh-image]: https://img.shields.io/badge/zsh-%3E=v5.8-777777.svg?style=flat-square
